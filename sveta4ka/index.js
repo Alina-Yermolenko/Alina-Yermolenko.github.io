@@ -51,18 +51,6 @@ const data = [
   },
 ]
 
-// const data = [
-//   {
-//     image: 'ready/photo_2022-12-04_01-48-45.jpg',
-//     clues: [
-//       ''
-//     ]
-//   },
-//   {
-//     image: 'ready/photo_2022-12-04_01-48-45.jpg',
-//   }
-// ];
-
 const container = document.getElementById('collage');
 const containerComplete = document.getElementById('collage-dumb');
 const containerCompleteGrid = document.getElementById('collage-dumb-grid');

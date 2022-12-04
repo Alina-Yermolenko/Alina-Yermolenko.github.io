@@ -1,12 +1,12 @@
 body {
 	padding: 0;
 	margin: 0 auto;
-	max-width: 1000px;
 	text-align: center;
 }
 
 .collage-container {
 	margin: 0 auto;
+	scroll-behavior: auto;
 }
 
 div#collage {
@@ -19,7 +19,7 @@ div#collage {
 	grid-template-rows: repeat(4, 1fr);
 	width: 900px;
 	height: 900px;
-	
+
 }
 
 .collage-cell {
@@ -100,6 +100,7 @@ body {
 	font-family: "Yanone Kaffeesatz", sans-serif;
 	background: linear-gradient(limegreen, transparent), linear-gradient(90deg, skyblue, transparent), linear-gradient(-90deg, coral, transparent);
 	background-blend-mode: screen;
+	background-attachment: fixed;
 }
 
 p {
@@ -373,3 +374,20 @@ div.collage,
 	margin: 0 auto;
 }
 
+.next span {
+	background-color: rgb(192, 145, 239);
+	border-radius: 10%;
+	padding: 10px;
+	transition: color 0.3s;
+}
+
+.next:hover {
+	color: white;
+	transform: scale(1.1);
+}
+
+.next {
+	transition: transform 0.3s;
+	margin: 30px 0;
+
+}
