@@ -1,0 +1,101 @@
+.calendar {
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+
+  align-items: center;
+  margin: 20px auto;
+
+  &__tiles {
+     background-color: #79777782;
+  }
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(18, 22, 20);
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  &__data {
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+  }
+
+  &__button {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    border-radius: 100%;
+    border: 1px solid white;
+    transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+
+    &:hover {
+      font-size: 20px;
+      background-color: rgba(59, 58, 58, 0.5);
+      color: white;
+      transform: scale(1.2);
+    }
+  }
+
+  &__week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    background-color: rgba(198, 206, 201, 0.458);
+    color: rgba(0, 0, 0, 0.573);
+    margin: 0;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+  }
+
+  &__item {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    font-weight: 900;
+    border: .5px solid black;
+    transition:  0.5s;
+
+    &:hover {
+      font-size: 20px;
+      background-color: rgba(18, 22, 20, 0.5);
+      color: rgb(255, 255, 255);
+
+      transform: scale(1.2);
+      border: 1px solid rgb(180, 238, 202);
+      border-radius: 5px;
+    }
+
+    &-week {
+      box-sizing: border-box;
+      border: 1px solid black;
+      width: 50px;
+      height: 50px;
+      margin: 0 auto;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.today {
+  color: white;
+}

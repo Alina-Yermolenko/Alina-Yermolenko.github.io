@@ -1,0 +1,17 @@
+#intro {
+  background:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.navbar-brand {
+ color: #C62C45 !important;
+}
+
+
+.learn {
+  color: white;
+}
+
