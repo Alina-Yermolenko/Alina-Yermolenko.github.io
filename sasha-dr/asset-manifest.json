@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b14a518.css",
-    "main.js": "/static/js/main.76a6936a.js",
-    "static/js/787.0181cc71.chunk.js": "/static/js/787.0181cc71.chunk.js",
-    "static/media/Sunshiney.ttf": "/static/media/Sunshiney.0f9049533ee6f308506d.ttf",
-    "static/media/background-win.jpg": "/static/media/background-win.03c033b0112149518067.jpg",
-    "static/media/background.jpg": "/static/media/background.94fc2c44096b211fc199.jpg",
-    "index.html": "/index.html",
-    "main.1b14a518.css.map": "/static/css/main.1b14a518.css.map",
-    "main.76a6936a.js.map": "/static/js/main.76a6936a.js.map",
-    "787.0181cc71.chunk.js.map": "/static/js/787.0181cc71.chunk.js.map"
+    "main.css": "/sasha-dr/static/css/main.5d980ce8.css",
+    "main.js": "/sasha-dr/static/js/main.0f8aa70a.js",
+    "static/js/787.0181cc71.chunk.js": "/sasha-dr/static/js/787.0181cc71.chunk.js",
+    "static/media/Sunshiney.ttf": "/sasha-dr/static/media/Sunshiney.0f9049533ee6f308506d.ttf",
+    "static/media/background-win.jpg": "/sasha-dr/static/media/background-win.03c033b0112149518067.jpg",
+    "static/media/background.jpg": "/sasha-dr/static/media/background.94fc2c44096b211fc199.jpg",
+    "index.html": "/sasha-dr/index.html",
+    "main.5d980ce8.css.map": "/sasha-dr/static/css/main.5d980ce8.css.map",
+    "main.0f8aa70a.js.map": "/sasha-dr/static/js/main.0f8aa70a.js.map",
+    "787.0181cc71.chunk.js.map": "/sasha-dr/static/js/787.0181cc71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b14a518.css",
-    "static/js/main.76a6936a.js"
+    "static/css/main.5d980ce8.css",
+    "static/js/main.0f8aa70a.js"
   ]
 }
